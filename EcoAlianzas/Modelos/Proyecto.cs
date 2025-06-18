@@ -20,16 +20,17 @@ namespace EcoAlianzas.Modelos
 
         public void Votar(Ciudadano ciudadano)
         {
-            if (!Votantes.Contains(ciudadano))
+            if (Votantes.Any(c => c.Email == ciudadano.Email))
             {
-                Votantes.Add(ciudadano);
-                Console.WriteLine("Voto registrado.");
+                Console.WriteLine("⚠ Ya votaste por este proyecto.");
             }
             else
             {
-                Console.WriteLine("Ya votaste por este proyecto.");
+                Votantes.Add(ciudadano);
+                Console.WriteLine("✅ ¡Voto registrado!");
             }
         }
+
 
         public void Comentar(Ciudadano autor, string comentario)
         {
