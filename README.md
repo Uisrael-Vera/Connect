@@ -7,7 +7,7 @@ Aplica principios de programación orientada a objetos, modularización y buenas
 
 📦 Totalmente funcional desde consola  
 📊 Exportación automática de reportes  
-🧩 Arquitectura modular escalable (Gracias Mg. Mario Perez Cargua de Desarrollo de Softawre I por su instrucción)
+🧩 Arquitectura modular escalable (Agradecimiento especial al Mg. Mario Perez Cargua de Desarrollo de Softawre I por su instrucción)
 
 
 Integrantes:
